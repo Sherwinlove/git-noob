@@ -1,5 +1,5 @@
 body {
-	background-color: #F00;
+	background-color: #777;
 }
 .container {
 	width: 100%;
@@ -32,6 +32,10 @@ body {
 .hero-text h1 {
 	color: #FFF;
 	font-size: 5em;
+}
+.hero-text p {
+	color: #FFF;
+	font-size: 1em;
 }
 .item {
 	width: 32%;
