@@ -19,7 +19,6 @@ body {
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 650px;
-	padding-top: 300px;
 	margin-left: 1.33%;
 }
 .hero-text {
@@ -45,4 +44,36 @@ body {
 }
 .item img {
 	width: 100%;
+}
+
+
+/* NAV */
+.main-nav {
+	width: 800px;
+	margin: 0 auto;
+}
+.main-nav li {
+	list-style-type: none;
+	float: left;
+	padding-right: 20px;
+	background-color: #fff;
+}
+.drop-nav ul {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+.drop-nav li {
+	clear: both;
+	width: 100%;
+}
+.drop-nav ul {
+	height: 0px;
+	overflow: hidden;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+.drop-nav:hover ul {
+	height: 75px;
 }
