@@ -1,0 +1,44 @@
+body {
+	background-color: #777;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #333;
+}
+.row {
+	width: 100%;
+	clear: both;
+	float: left;
+	margin-left: -1.33%;
+}
+.header {
+	background-image: url(../img/warehouse.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 650px;
+	padding-top: 300px;
+	margin-left: 1.33%;
+}
+.hero-text {
+	background-color: rgba(100, 50, 0, .5);
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px;
+}
+.hero-text h1 {
+	color: #FFF;
+	font-size: 5em;
+}
+.item {
+	width: 32%;
+	float: left;
+	margin-left: 1.33%;
+	background-color: #fff;
+}
+.item img {
+	width: 100%;
+}
